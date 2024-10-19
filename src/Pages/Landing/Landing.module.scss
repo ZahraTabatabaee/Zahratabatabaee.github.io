@@ -1,0 +1,261 @@
+.Landing{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FBF8CC;
+    padding: 34px 440px 84px 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 80px;
+    box-sizing: border-box; /* Includes padding in total size */
+    overflow-y: scroll;
+}
+.header{
+    flex-grow: 0;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #03045e;
+}
+.about{
+    align-self: stretch;
+    width: 100%;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 110px;
+    padding: 0;
+}
+.aboutName{
+    width: 616px;
+    height: 430px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 36px;
+    padding: 0;
+}
+.aboutImage{
+    width: 493px;
+    height: 493px;
+}
+.text1{
+    align-self: stretch;
+    flex-grow: 0;
+    font-size: 28px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #03045e;
+}
+.text2{
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: Poppins;
+    font-size: 100px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    text-align: left;
+    color: #03045e;
+}
+.Group {
+    width: 164px;
+    height: 68px;
+    flex-grow: 0;
+  }
+
+.part{
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 32px;
+    padding: 0;
+}
+.title{
+    height: 116px;
+    align-self: stretch;
+    flex-grow: 0;
+    -webkit-text-stroke: 2px #03045e;
+    font-family: Poppins;
+    font-size: 100px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    text-align: left;
+    color: #f7f197;
+}
+.text{
+    height: 264px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: #03045e;
+  }
+.box{
+    width: 818px;
+    height: 328px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 0;
+}
+.row{
+    width: 818px;
+    height: 40px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 0;
+}
+.bullet{
+    width: 13px;
+    height: 13px;
+    flex-grow: 0;
+    background-color: #03045e;
+    border-radius: 100px;
+  }
+.text3{
+    width: 781px;
+    height: 40px;
+    flex-grow: 0;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #03045e;
+}
+.box2 {
+    align-self: stretch;
+    width: 100%; /* Make sure it takes the full width */
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    // gap/: 50px;
+    padding: 0;
+    flex-wrap: wrap; /* Allows the projects to wrap onto the next line */
+  }
+  
+  .project {
+    width: calc(50% - 60px); /* Adjust width to take 50% of the container minus gap */
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 0;
+    margin-right: 50px ;
+    margin-bottom: 40px; /* Add spacing between rows */
+  }
+  
+  .projectImage {
+    width: 450px;  /* Make the image take the full width of the project container */
+    height: 300px !important;
+    border-radius: 16px; /* Keep existing styles */
+    background-color: #f5ee84; /* Keep existing styles */
+    object-fit: cover; /* Ensures the image covers the area while maintaining aspect ratio */
+    border: solid 1px #03045e;
+}
+
+.projectDate{
+    height: 44px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 2.93;
+    letter-spacing: normal;
+    text-align: left;
+    color: #03045e;
+}
+.projectText{
+    height: 172px;
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 0;
+}
+.projectTitle{
+    height: 44px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: #03045e;
+}
+.projectDetail{
+    height: 128px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.78;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #03045e;
+}
+@media (max-width: 480px) { 
+    // .MainContent{
+    //     align-items: start;
+    // }
+} 
