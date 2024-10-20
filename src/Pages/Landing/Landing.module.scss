@@ -4,11 +4,30 @@
     width: 100vw;
     height: 100vh;
 }
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../assets/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400; /* Regular */
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../assets/Poppins-Bold.ttf') format('truetype');
+  font-weight: 700; /* Bold */
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../assets/Poppins-Black.ttf') format('truetype');
+  font-weight: 900; /* Black */
+}
+
 .container {
     width: 100vw;
     height: 100vh;
     background-color: #FBF8CC;
-    padding: 34px 440px 84px 440px;
+    padding: 20%;
+    padding-top: 34px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -41,8 +60,8 @@
     padding: 0;
 }
 .aboutName{
-    width: 616px;
-    height: 430px;
+    width: 55%;
+    // height: 430px;
     flex-grow: 0;
     display: flex;
     flex-direction: column;
@@ -52,8 +71,8 @@
     padding: 0;
 }
 .aboutImage{
-    width: 493px;
-    height: 493px;
+    width: 45%;
+    height: auto;
 }
 .text1{
     align-self: stretch;
@@ -71,7 +90,7 @@
     align-self: stretch;
     flex-grow: 0;
     font-family: Poppins;
-    font-size: 100px;
+    font-size: 80px;
     font-weight: 800;
     font-stretch: normal;
     font-style: normal;
@@ -112,11 +131,11 @@
     color: #f7f197;
 }
 .text{
-    height: 264px;
+    // height: 264px;
     align-self: stretch;
     flex-grow: 0;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -137,7 +156,7 @@
     padding: 0;
 }
 .row{
-    width: 818px;
+    // width: 818px;
     height: 40px;
     flex-grow: 0;
     display: flex;
@@ -155,11 +174,11 @@
     border-radius: 100px;
   }
 .text3{
-    width: 781px;
+    width: 810px;
     height: 40px;
     flex-grow: 0;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     font-stretch: normal;
     font-style: normal;
@@ -194,7 +213,7 @@
   }
   
   .projectImage {
-    width: 450px;  /* Make the image take the full width of the project container */
+    width: 100%;  /* Make the image take the full width of the project container */
     height: 300px !important;
     border-radius: 16px; /* Keep existing styles */
     background-color: #f5ee84; /* Keep existing styles */
@@ -203,7 +222,7 @@
 }
 
 .projectDate{
-    height: 44px;
+    // height: 44px;
     align-self: stretch;
     flex-grow: 0;
     font-family: Poppins;
@@ -217,7 +236,7 @@
     color: #03045e;
 }
 .projectText{
-    height: 172px;
+    // height: 172px;
     align-self: stretch;
     flex-grow: 0;
     display: flex;
@@ -227,7 +246,7 @@
     padding: 0;
 }
 .projectTitle{
-    height: 44px;
+    // height:/ 44px;
     align-self: stretch;
     flex-grow: 0;
     font-family: Poppins;
@@ -241,7 +260,7 @@
     color: #03045e;
 }
 .projectDetail{
-    height: 128px;
+    // height: 128px;
     align-self: stretch;
     flex-grow: 0;
     font-family: Poppins;
@@ -255,7 +274,218 @@
     color: #03045e;
 }
 @media (max-width: 480px) { 
-    // .MainContent{
-    //     align-items: start;
-    // }
+    .container {
+        padding: 10% ;
+        gap: 32px;
+    }
+    .about{
+        // flex-direction: column-reverse
+        gap: 0;
+    }
+    .aboutImage{
+        width: 40%;
+    }
+
+    .aboutName{
+        gap: 16px;
+        width: 60%;
+    }
+    .text1{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .text2{
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .Group {
+        width: 120px;
+        height: 50px;
+        flex-grow: 0;
+      }
+      .part{
+        align-self: stretch;
+        flex-grow: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        gap: 16px;
+        padding: 0;
+    }
+    .title{
+        height: 56px;
+
+        font-size: 40px;
+
+    }
+    .text{
+        font-size: 14px;
+      }
+      .box{
+        width: 100%;
+      }
+      .row{
+        width: 100%;
+        height: 100%;
+        flex-grow: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+        padding: 0;
+    }
+    .bullet{
+        width: 10px;
+        height: 9px;
+      }
+    .text3{
+        // width: 810px;
+        width: 100%;
+        height: max-content;
+        flex-grow: 0;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        // line-height: 1.67;
+        letter-spacing: normal;
+        text-align: left;
+        color: #03045e;
+    }
+    .box2 {
+        flex-direction: column;
+
+      }
+      
+      .project {
+        width: 100%; /* Adjust width to take 50% of the container minus gap */
+      }
+      
+      .projectImage {
+        width: 100%;  /* Make the image take the full width of the project container */
+        height: auto !important;
+    }
+    
+    .projectDate{
+
+        font-size: 12px;
+    }
+    .projectTitle{
+        font-size: 18px;
+    }
+    .projectDetail{
+        font-size: 12px;
+
+    }
+} 
+@media (max-width: 780px) { 
+    .container {
+        padding: 10% ;
+        gap: 32px;
+    }
+    .about{
+        // flex-direction: column-reverse
+        gap: 0;
+    }
+    .aboutImage{
+        width: 40%;
+    }
+
+    .aboutName{
+        gap: 16px;
+        width: 60%;
+    }
+    .text1{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .text2{
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .Group {
+        width: 120px;
+        height: 50px;
+        flex-grow: 0;
+      }
+      .part{
+        align-self: stretch;
+        flex-grow: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        gap: 16px;
+        padding: 0;
+    }
+    .title{
+        height: 56px;
+
+        font-size: 40px;
+
+    }
+    .text{
+        font-size: 14px;
+      }
+      .box{
+        width: 100%;
+      }
+      .row{
+        width: 100%;
+        height: 100%;
+        flex-grow: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+        padding: 0;
+    }
+    .bullet{
+        width: 10px;
+        height: 9px;
+      }
+    .text3{
+        // width: 810px;
+        width: 100%;
+        height: max-content;
+        flex-grow: 0;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        // line-height: 1.67;
+        letter-spacing: normal;
+        text-align: left;
+        color: #03045e;
+    }
+    .box2 {
+        flex-direction: column;
+
+      }
+      
+      .project {
+        width: 100%; /* Adjust width to take 50% of the container minus gap */
+      }
+      
+      .projectImage {
+        width: 100%;  /* Make the image take the full width of the project container */
+        height: auto !important;
+    }
+    
+    .projectDate{
+
+        font-size: 12px;
+    }
+    .projectTitle{
+        font-size: 18px;
+    }
+    .projectDetail{
+        font-size: 12px;
+
+    }
 } 

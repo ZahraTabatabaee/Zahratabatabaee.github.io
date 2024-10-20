@@ -53,12 +53,12 @@ export const Landing = () => {
       title: "OpexShop",
       date: "December, 2023",
       detail: "Collaborated on front-end development for the OpexShop website.",
-      link: "https://www.uxcel.com"
+      link: "https://www.uxcell.com"
     }
   ];
 
   return (
-    <div style={{ fontFamily: "poppins" }} className={styles.Landing}>
+    <div className={styles.Landing}>
       <div className={styles.container}>
         <div className={styles.header}>Zahra Tabatabaee</div>
         <div className={styles.about}>
